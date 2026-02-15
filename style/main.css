@@ -114,7 +114,7 @@ body {
   /* transform: scale(0.1); */ /*
   top: -35%;
   width: 80px;
-}*/
+}*/ /*
 .six .hat {
   position: absolute;
   top: -15%;
@@ -124,7 +124,22 @@ body {
 }
 .six {
   position: relative;
+} */
+
+.photo-wrap {
+  position: relative;
+  display: inline-block;
 }
+
+.photo-wrap .hat {
+  position: absolute;
+  top: -25%;
+  left: 53%;
+  transform: translateX(-50%);
+  width: 65px;
+  pointer-events: none;
+}
+
 
 .baloons img {
   display: inline-block;
