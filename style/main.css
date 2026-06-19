@@ -133,10 +133,10 @@ body {
 
 .photo-wrap .hat {
   position: absolute;
-  top: -25%;
-  left: 53%;
+  top: -55%;
+  left: 65%;
   transform: translateX(-50%);
-  width: 65px;
+  width: 40%;
   pointer-events: none;
 }
 
